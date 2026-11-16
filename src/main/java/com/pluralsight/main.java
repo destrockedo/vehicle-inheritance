@@ -19,7 +19,7 @@ public class main {
 
         System.out.println("Car:");
         System.out.println("Cargo Capacity: " + decent.getCargoCapacity());
-        System.out.println("Fuel Capacity: " + decent.getFuelCapacity());s
+        System.out.println("Fuel Capacity: " + decent.getFuelCapacity());
 
 
     }
