@@ -3,11 +3,11 @@ package com.pluralsight;
 public class main {
     public static void main(String[] args) {
 
-        Moped terrible = new Moped();
+        Moped terrible = new Moped("red",1,1,2,1000);
         terrible.setColor("Purple");
         terrible.setFuelCapacity(6);
 
-        Car decent = new Car();
+        Car decent = new Car("blue",2,2,3,2000);
         decent.setCargoCapacity(400);
         decent.setFuelCapacity(10);
 

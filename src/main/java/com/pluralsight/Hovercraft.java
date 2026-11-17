@@ -1,6 +1,11 @@
 package com.pluralsight;
 
 public class Hovercraft {
+
+    public Hovercraft(int airCushionPressure) {
+        this.airCushionPressure = airCushionPressure;
+    }
+
     private int airCushionPressure;
 
     public void hover() {

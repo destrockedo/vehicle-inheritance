@@ -1,6 +1,12 @@
 package com.pluralsight;
 
 public class Moped extends Vehicle{
+
+    public Moped(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity, int maxWeight) {
+        super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
+        this.maxWeight = maxWeight;
+    }
+
     private int maxWeight;
 
     public void ride() {
